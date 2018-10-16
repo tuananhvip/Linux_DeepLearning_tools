@@ -340,12 +340,12 @@ This writes a file to C:\Users\username\.jupyter\jupyter_notebook_config.
 Search for the following line: #c.NotebookApp.notebook_dir = ''
 
 Replace by c.NotebookApp.notebook_dir = '/the/path/to/home/folder/'
+ex:
+File: C:\Users\ta\.jupyter\jupyter_notebook_config.py
+Line 214: c.NotebookApp.notebook_dir = 'f:/2018'
 
 Make sure you use forward slashes in your path and use /home/user/ instead of ~/ for your home directory,
 https://stackoverflow.com/questions/35254852/how-to-change-the-jupyter-start-up-folder
-
-
-
 
 ##############################################################
 Anaconda Jupyter Notebook: Run Remote Notebook on server from local:
